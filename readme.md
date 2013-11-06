@@ -3,7 +3,7 @@
 
 ![image](http://i.imgur.com/LAXN5H5.png)
 
-### [Read more about me](http://zevdesigns.com/info) – [Contact me](mailto:coreyzev@zevdesigns.com) — [PDF Resume](http://zedvesigns.com/content/Corey_Zev_Holland-resume.pdf)
+### [Read more about me](http://zevdesigns.com/info) – [Contact me](mailto:coreyzev@zevdesigns.com) — [PDF Resume](http://zevdesigns.com/content/Corey_Zev_Holland-resume.pdf)
 
 *anchor:* [About](#about) — [Experience](#experience) — [Skills](#skills) — [Github Projects](#github-projects)
 
