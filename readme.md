@@ -5,7 +5,7 @@
 
 ### [Read more about me](http://zevdesigns.com/info) – [Contact me](mailto:coreyzev@zevdesigns.com)
 
-*anchor:* [About](#About) — [Experience](#Experience) — [Skills](#Skills) — [Github Projects](#Github-Projects)
+*anchor:* [About](#about) — [Experience](#experience) — [Skills](#skills) — [Github Projects](#github-projects)
 
 ## About
 
