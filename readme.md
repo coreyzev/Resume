@@ -3,7 +3,7 @@
 
 ![image](http://i.imgur.com/LAXN5H5.png)
 
-### [Read more about me](http://zevdesigns.com/info) – [Contact me](mailto:coreyzev@zevdesigns.com)
+### [Read more about me](http://zevdesigns.com/info) – [Contact me](mailto:coreyzev@zevdesigns.com) — [PDF Resume](http://zedvesigns.com/content/Corey_Zev_Holland-resume.pdf)
 
 *anchor:* [About](#about) — [Experience](#experience) — [Skills](#skills) — [Github Projects](#github-projects)
 
@@ -22,6 +22,20 @@ December 2011
 ```
 
 [Codecademy](www.codecademy.com/coreyzev) — [Codeschool](https://www.codeschool.com/users/coreyzev)
+	
+## Skills
+
+##### Top 8
+* HTML 
+* CSS 
+* Javascript 
+* Backbone 
+* MVC / MV* 
+* Adobe Creative Suite
+* UI Design 
+* Branding
+
+Sass, Less, Stylus, Python, Django, Flask, REST, git, PHP, Wordpress, ExpressionEngine, jQuery, LAMP, Markdown, Sublime Text, Autodesk Maya, SLR Cameras, Omnigraffle, Avid, Final Cut
 
 ## Experience
 
@@ -43,7 +57,7 @@ December 2011
 	Boston, MA 
 	July 2011 – March 2012
 	
-> My primary position in this role was developing the UX for a new white-label local search feature. My responsibilities also included updating and building HTML products, branding, and building a new MVC based corporate website .**PullnotPush.com**
+> My primary position in this role was developing the UX for a new white-label local search feature. My responsibilities also included updating and building HTML products, branding, and building a new MVC based corporate website.**PullnotPush.com**
 	Design and Development 
 	Boston, MA 
 	July 2010 – Sept. 2010
@@ -59,21 +73,6 @@ December 2011
 	July 2008 – Feb. 2009
 	
 > Performed as a central member of a multimedia lab, teaching the Adobe, Final Cut, and iLife, suites. Key responsibilities also included web maintenance, print creation, and multi-department collaboration.
-	
-## Skills
-
-##### Top 8
-* HTML 
-* CSS 
-* Javascript 
-* Backbone 
-* MVC / MV* 
-* Adobe Creative Suite
-* UI Design 
-* Branding
-
-Sass, Less, Stylus, Python, Django, Flask, REST, git, PHP, Wordpress, ExpressionEngine, jQuery, LAMP, Markdown, Sublime Text, Autodesk Maya, SLR Cameras, Omnigraffle, Avid, Final Cut
-
 
 ## Github Projects
 
