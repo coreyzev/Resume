@@ -168,6 +168,14 @@ div[id].row h3:first-child {
   background-color: #555;
 }
 
+#exp2 small {
+  color: #555;
+}
+
+#exp2 .active small {
+  color: #aaa;
+}
+
 #experience>div>.row div{
   margin-bottom: 2em;
   font-size: 0.9em;
