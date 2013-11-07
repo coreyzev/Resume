@@ -62,10 +62,4 @@ $(document).ready(function() {
     .trigger( "change" );
 
 
-  $('#expSelect option').on('mousedown', function(e) {
-    var targ = $(this).attr('data-target');
-    $('#expPills a[href="' + targ + '"]' ).click();
-  });
-
-
 });
