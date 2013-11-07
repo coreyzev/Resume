@@ -1,0 +1,219 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+  max-width: 100%;
+  overflow-x:hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+footer {
+  padding: 30px 0;
+}
+
+.sans, .btn, h1, h2, h3, h4, .nav a, #sidebar a  {
+  font-family: 'Exo', sans-serif;
+}
+
+.serif {
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+}
+
+p {
+}
+
+.navbar {
+  background-color: #CDDFEE;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #666;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #666;
+}
+
+#sidebar-inner {
+  min-width:40%;
+  min-height: 100%;
+  background-color: #fff;
+  z-index: 1001;
+  -moz-box-shadow: 0 0 5px 5px #555;
+  -webkit-box-shadow: 0 0 5px 5px #555;
+  box-shadow: 0 0 5px 5px #555;
+}
+
+#sidebar-inner a {
+
+  border-radius: 0px;
+}
+
+.row-offcanvas.active #sidebar-inner.affix {
+  position: fixed;
+  top:50px;
+  right:0;
+}
+
+.row-offcanvas.active #sidebar-inner.affix-top {
+  right:10px;
+}
+
+.row-offcanvas.active #sidebar-inner.affix-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+.darkClass
+{
+    background-color: #000;
+    filter:alpha(opacity=50); /* IE */
+    opacity: 0.5; /* Safari, Opera */
+    -moz-opacity:0.50; /* FireFox */
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    display: none;
+    z-index: 1000;
+}
+
+.darkClass.active {
+  display: block;
+}
+
+#expander .jumbotron {
+  border-radius: 0px;
+  box-shadow: 0px 0px 100px 60px #eee;
+}
+
+.jumbotron h1 {
+  line-height: 1.15;
+}
+.jumbotron p {
+  line-height: 1.5;
+  font-family: 'Merriweather', serif;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+#expander .jumbotron h1:first-letter {
+  letter-spacing: normal;
+  margin-left: -3px;
+}
+
+.jumbotron .text-info {
+  font-family: 'Helvetica', sans-serif;
+}
+
+#connect .panel-body {
+  text-align: center;
+}
+
+#connect .btn {
+  background-color: #ddd;
+  margin: 10px;
+}
+
+#connect .btn:first-child {
+  margin-left:0;
+} 
+
+#connect .btn:last-child {
+  margin-right:0;
+}
+
+#connect .btn:hover {
+  background-color: #eee;
+}
+
+#connect i {
+  font-size: 2em;
+}
+
+div[id].row, #skills {
+  padding-top: 60px;
+}
+
+div[id].row:first-child {
+  padding-top: 0;
+}
+
+div[id].row h3:first-child {
+  margin-top: 0;
+}
+
+#resumePrompt .alert-default {
+  background-color: #eee;
+  border-color: #ddd;
+}
+
+#resumePrompt .btn.disabled {
+  background-color: #555;
+}
+
+#experience>div>.row div{
+  margin-bottom: 2em;
+  font-size: 0.9em;
+}
+
+#experience>div>.row div:first-child {
+  text-align: right;
+  font-size: 0.8em;
+  word-wrap: break-word;
+}
+
+#experience>div>.row .frln {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas{
+    position: relative;
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-right.active {
+    right: 50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 50%; /* 6 columns */
+  }
+}
