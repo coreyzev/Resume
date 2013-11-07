@@ -176,6 +176,13 @@ div[id].row h3:first-child {
   color: #aaa;
 }
 
+.tab-content .panel, .tab-content .panel-heading {
+  border-right: none;
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
 #experience>div>.row div{
   margin-bottom: 2em;
   font-size: 0.9em;

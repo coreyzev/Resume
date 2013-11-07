@@ -44,4 +44,28 @@ $(document).ready(function() {
     $('#resumePrompt .btn-group .btn').toggleClass('disabled');
   });
 
+
+  $('#expPills a').click(function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  });
+
+  $( '#expSelect' )
+    .change(function() {
+      $( "select option:selected" ).each(function() {
+        var str = "";
+        var targ = $(this).attr('data-target');
+        str = '#expPills a[href="' + targ + '"]'
+        $(str).click();
+      });
+    })
+    .trigger( "change" );
+
+
+  $('#expSelect option').on('mousedown', function(e) {
+    var targ = $(this).attr('data-target');
+    $('#expPills a[href="' + targ + '"]' ).click();
+  });
+
+
 });
