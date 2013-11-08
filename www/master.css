@@ -159,6 +159,10 @@ div[id].row h3:first-child {
   margin-top: 0;
 }
 
+#about .pull-right p {
+  font-size: 0.8em;
+}
+
 #resumePrompt .alert-default {
   background-color: #eee;
   border-color: #ddd;
