@@ -1,18 +1,23 @@
 $(document).ready(function() {
 
   // Smooth Scroll
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 500);
-        return false;
-      }
-    }
+  $(function() {
+    $('a[href*=#]:not([href=#])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+          || location.hostname == this.hostname) {
+
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+             if (target.length) {
+               $('html,body').animate({
+                   scrollTop: target.offset().top
+              }, 500);
+              return false;
+            }
+        }
+    })
   });
+
 
   // Initialize Tooltips
   $('[data-toggle=tooltip]').tooltip();
@@ -81,12 +86,12 @@ $(document).ready(function() {
 
   // Tag Cloud
   $.fn.tagcloud.defaults = {
-    size: {start: 12, end: 14, unit: 'px'},
+    size: {start: 10, end: 14, unit: 'px'},
     color: {start: '#CDDFEE', end: '#8299AB'}
   };
 
   $(function () {
-    $('#skills #tagcloud a').tagcloud();
+    $('#skills #tagcloud a').tagcloud().css('padding-right', '5px');;
   });
 
 

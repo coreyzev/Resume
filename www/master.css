@@ -101,6 +101,7 @@ background-color: #666;
 #expander .jumbotron {
   border-radius: 0px;
   box-shadow: 0px 0px 100px 60px #eee;
+  padding: 10px;
 }
 
 .jumbotron h1 {
@@ -113,6 +114,10 @@ background-color: #666;
   font-size: 0.9em;
 }
 
+.jumbotron img {
+  margin-top:20px;
+}
+
 #expander .jumbotron h1:first-letter {
   letter-spacing: normal;
   margin-left: -3px;
@@ -120,6 +125,10 @@ background-color: #666;
 
 .jumbotron .text-info {
   font-family: 'Helvetica', sans-serif;
+}
+
+.topPanels h3 {
+  margin-top: 0;
 }
 
 #connect .panel-body {
@@ -167,8 +176,8 @@ div[id].row h3:first-child {
 
 #skills {
   margin-top: -20px;
-  padding-top: 60px;
-  margin-bottom: -150px;
+  padding-top: 90px;
+  margin-bottom: -230px;
 }
 
 #skills button {
@@ -192,12 +201,12 @@ div[id].row h3:first-child {
   background-color: #555;
 }
 
-#exp2 small {
+#expPills small {
   color: #555;
 }
 
-#exp2 .active small {
-  color: #aaa;
+#expPills .active small {
+  color: #ddd;
 }
 
 .tab-content .panel, .tab-content .panel-heading {
