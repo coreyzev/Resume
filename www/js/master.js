@@ -81,12 +81,12 @@ $(document).ready(function() {
 
   // Tag Cloud
   $.fn.tagcloud.defaults = {
-    size: {start: 12, end: 14, unit: 'px'},
+    size: {start: 10, end: 14, unit: 'px'},
     color: {start: '#CDDFEE', end: '#8299AB'}
   };
 
   $(function () {
-    $('#skills #tagcloud a').tagcloud();
+    $('#skills #tagcloud a').tagcloud().css('padding-right', '5px');;
   });
 
 

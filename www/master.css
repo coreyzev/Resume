@@ -167,8 +167,8 @@ div[id].row h3:first-child {
 
 #skills {
   margin-top: -20px;
-  padding-top: 60px;
-  margin-bottom: -150px;
+  padding-top: 90px;
+  margin-bottom: -230px;
 }
 
 #skills button {
@@ -192,12 +192,12 @@ div[id].row h3:first-child {
   background-color: #555;
 }
 
-#exp2 small {
+#expPills small {
   color: #555;
 }
 
-#exp2 .active small {
-  color: #aaa;
+#expPills .active small {
+  color: #ddd;
 }
 
 .tab-content .panel, .tab-content .panel-heading {
