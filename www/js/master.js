@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  // Smooth Scroll
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -12,6 +13,9 @@ $(document).ready(function() {
       }
     }
   });
+
+  // Initialize Tooltips
+  $('[data-toggle=tooltip]').tooltip();
 
   // Sliding Navigation
   $('[data-toggle=offcanvas]').click(function() {
@@ -74,6 +78,16 @@ $(document).ready(function() {
       });
     })
     .trigger( "change" );
+
+  // Tag Cloud
+  $.fn.tagcloud.defaults = {
+    size: {start: 12, end: 14, unit: 'px'},
+    color: {start: '#CDDFEE', end: '#8299AB'}
+  };
+
+  $(function () {
+    $('#skills #tagcloud a').tagcloud();
+  });
 
 
 });
