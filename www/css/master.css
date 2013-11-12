@@ -107,7 +107,13 @@ background-color: #666;
 
 .jumbotron h1 {
   line-height: 1.15;
+  margin: 0px -100% 0;
+  background: aliceblue;
+  z-index: 10;
+  position: relative;
+  padding: 10px 100% 15px;
 }
+
 .jumbotron p {
   line-height: 1.5;
   font-family: 'Merriweather', serif;
@@ -117,6 +123,8 @@ background-color: #666;
 
 .jumbotron img {
   margin-top:20px;
+  z-index: 20;
+  position: relative;
 }
 
 #expander .jumbotron h1:first-letter {
@@ -124,12 +132,32 @@ background-color: #666;
   margin-left: -3px;
 }
 
-.jumbotron .text-info {
-  font-family: 'Helvetica', sans-serif;
+
+.jumbotron .text-muted  {
+  margin: 0 -100% 0;
+  background: transparent;
+  border: 5px inset lightgray;
+  z-index: 9;
+  position: relative;
+  padding: 10px 100% 10px;
+}
+
+.jumbotron .text-muted span {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .jumbotron .text-muted span {
+    display: block !important;
+  }
 }
 
 .topPanels h3 {
   margin-top: 0;
+}
+
+#profphoto:hover {
+  border: 1px solid blue;
 }
 
 .fancybox-title-float-wrap {
@@ -251,7 +279,6 @@ div[id].row h3:first-child, #connect {
 #experience>div>.row div:first-child {
   text-align: right;
   font-size: 0.8em;
-  word-wrap: break-word;
 }
 
 #experience>div>.row .frln {
