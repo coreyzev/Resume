@@ -132,6 +132,24 @@ background-color: #666;
   margin-top: 0;
 }
 
+.fancybox-title-float-wrap {
+  right: auto;
+}
+
+.fancybox-title-float-wrap .child {
+  margin-right: auto;
+  padding: 0;
+  background: transparent;
+}
+
+.PDFviewer .fancybox-title-float-wrap {
+  right: 50%;
+}
+
+.PDFviewer .fancybox-title-float-wrap .child {
+  margin-right: -100%;
+}
+
 #connect .panel-body {
   text-align: center;
 }

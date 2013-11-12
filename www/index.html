@@ -16,8 +16,10 @@
 
     <!-- Custom styles for this template -->
     <link href='http://fonts.googleapis.com/css?family=Exo:200,400,700,800|Merriweather:400,300,700' rel='stylesheet' type='text/css'>
-    <link href="master.css" rel="stylesheet">
-    <link href="icons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fancybox-thumbs.css">
+    <link href="css/master.css" rel="stylesheet">
+    <link href="css/icons.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -57,7 +59,7 @@
               <div class="jumbotron">
                 <div class="row">
                   <div class="col-xs-5 col-sm-3">
-                    <img src="img/me.png" class="img-rounded img-responsive" alt="Picture of Corey Zev Holland">
+                    <img id="profphoto" src="img/me.png" class="img-rounded img-responsive" alt="Picture of Corey Zev Holland">
                   </div>
                   <div class="col-xs-12 col-sm-9">
                     <h1>Designer & Developer</h1>
@@ -75,7 +77,7 @@
                     <div class="panel-heading">
                       <h3 class="panel-title">PDF Resume</h3>
                     </div>
-                    <div class="panel-footer"><a class="btn btn-block btn-success" href="http://www.zevdesigns.com/content/Corey_Zev_Holland-resume.pdf" role="button">Download &raquo;</a></div>
+                    <div class="panel-footer"><a class="btn btn-block btn-success openPDF" data-fancybox-type="iframe" href="http://www.zevdesigns.com/content/Corey_Zev_Holland-resume.pdf" role="button">View &raquo;</a></div>
                   </div>                  
                 </div>
                 <div class="col-xs-6 col-sm-10 col-md-12 col-lg-12">
@@ -98,7 +100,7 @@
                 <div class="panel-body">
                   <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
                 </div>
-                <div class="panel-footer"><a class="btn btn-default" href="#work" role="button">View details &raquo;</a></div>
+                <div class="panel-footer"><a class="btn btn-default" href="#contact" role="button">Jump to the form &raquo;</a></div>
               </div>
             </div><!--/span-->
           </div><!--/row-->
@@ -435,11 +437,52 @@
             </div>
           -->
           </div><!-- /collapse -->
+
           <div id="work" class="row">
             <div class="col-6 col-sm-6 col-lg-4">
               <h2>Previous Work</h2>
               <p>To be added.</p>
             </div><!--/span-->
+          </div><!--/row-->
+
+          <div id="contact" class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <h2>Contact me</h2>
+              <div class="well">
+                <form role="form" class="row">
+                  <div class="col-xs-5">
+                    <div class="form-group">
+                      <label for="">First Name</label>
+                      <input type="text" class="form-control" id="" placeholder="Your First Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Last Name</label>
+                      <input type="text" class="form-control" id="" placeholder="Your Last Name">
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                      <label for="">Subject</label>
+                      <select name="" id="input" class="form-control">
+                        <option value="Quote Request">Quote Request</option>
+                        <option value="Interested in Hiring You">Interested in Hiring You</option>
+                        <option value="Question!">Question!</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Message</label>
+                      <textarea class="form-control input-lg"  id="message" name="message" rows="10"></textarea>
+                    </div>
+                    <span class="help-block pull-left">This will be compiled for you to send in your default email&nbsp;app.</span>
+                    <button type="submit" class="btn btn-default pull-right">Submit</button>
+                  </div>
+                </form>
+              </div>              
+            </div>
           </div><!--/row-->
         </div><!--/span-->
 
@@ -476,6 +519,8 @@
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>
     <script src="js/jquery.tagcloud.js"></script>
     <script src="js/moment.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.fancybox-thumbs.js"></script>
     <script src="js/master.js"></script>
 
     <script>
