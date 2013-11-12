@@ -4,18 +4,18 @@ $(document).ready(function() {
   $(function() {
     $('a[href*=#]:not([href=#])').click(function() {
       if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-          || location.hostname == this.hostname) {
+        || location.hostname == this.hostname) {
 
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-             if (target.length) {
-               $('html,body').animate({
-                   scrollTop: target.offset().top
-              }, 500);
-              return false;
-            }
-        }
-    })
+        var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+       $('html,body').animate({
+         scrollTop: target.offset().top
+       }, 500);
+       return false;
+     }
+   }
+ })
   });
 
 
@@ -41,8 +41,8 @@ $(document).ready(function() {
   if (lastmoddate == 0) {               // unknown date (or January 1, 1970 GMT)
     document.writeln("Last Modified: Unknown")
   } else {
-     $('#momentupdate').html(modMoment);
-  };
+   $('#momentupdate').html(modMoment);
+ };
 
   // Resume Question Toggle
   var alerts = $('#resumePrompt .alert');
@@ -74,15 +74,15 @@ $(document).ready(function() {
   });
 
   $( '#expSelect' )
-    .change(function() {
-      $( "select option:selected" ).each(function() {
-        var str = "";
-        var targ = $(this).attr('data-target');
-        str = '#expPills a[href="' + targ + '"]'
-        $(str).click();
-      });
-    })
-    .trigger( "change" );
+  .change(function() {
+    $( "select option:selected" ).each(function() {
+      var str = "";
+      var targ = $(this).attr('data-target');
+      str = '#expPills a[href="' + targ + '"]'
+      $(str).click();
+    });
+  })
+  .trigger( "change" );
 
   // Tag Cloud
   $.fn.tagcloud.defaults = {
@@ -94,5 +94,82 @@ $(document).ready(function() {
     $('#skills #tagcloud a').tagcloud().css('padding-right', '5px');;
   });
 
+  // Fancybox
+  var images = {
+    1: [
+    {
+      href : 'img/me.png',                
+      title : 'I still think I look good here.'
+    },
+    {
+      href : 'img/cz_knit.jpg',                
+      title : 'Self Portrait. Sinister.'
+    },
+    {
+      href : 'img/cz_link.jpg',                
+      title : 'Hey Listen!'
+    },
+    {
+      href : 'img/cz_fire.jpg',                
+      title : "I'm a hot commodity."
+    },
+    {
+      href : 'img/cz_mom.jpg',                
+      title : 'Family commitment'
+    },
+    {
+      href : 'img/cz_apples.jpg',                
+      title : "I can't wait to be this happy to go to work."
+    },
+    {
+      href : 'img/pants-rip.gif',                
+      title : "I can't wait to be this happy to go to work."
+    }
+    ],
+    2: [
+    {
+      href : 'http://www.zevdesigns.com/content/Corey_Zev_Holland-resume.pdf',                
+      title : 'Resume'
+    },
+    {
+      href : 'http://fancyapps.com/fancybox/demo/5_b.jpg',                
+      title : 'Gallery 2 - 2'
+    }
+    ]
+  };
+
+  $("#profphoto").click(function() {
+
+    $.fancybox.open(images[1], {
+      nextEffect : 'none',
+      prevEffect : 'none',
+      loop       : false,
+      nextClick  : true,
+      padding    : 0,
+      helpers    : {
+        thumbs : {
+          width  : 50,
+          height : 50
+        }
+      }
+    });
+
+    return false;
+  });
+
+  $(".openPDF").fancybox({
+    openEffect  : 'none',
+    closeEffect : 'none',
+    iframe : {
+        preload: false
+    },
+    afterLoad: function() {
+        this.title = '<a class="btn btn-success" href="' + this.href + '">Download &raquo;</a> ' + this.title;
+    },
+    wrapCSS : 'PDFviewer',
+    fitToView : true,
+    height : '100%',
+    padding : 0
+});
 
 });
