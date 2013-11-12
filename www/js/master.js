@@ -138,7 +138,7 @@ $(document).ready(function() {
     ]
   };
 
-  $("#profphoto").click(function() {
+  $("#profphoto").mouseup(function() {
 
     $.fancybox.open(images[1], {
       nextEffect : 'none',
