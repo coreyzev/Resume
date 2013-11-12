@@ -101,7 +101,8 @@ background-color: #666;
 #expander .jumbotron {
   border-radius: 0px;
   box-shadow: 0px 0px 100px 60px #eee;
-  padding: 10px;
+  padding: 0;
+  word-wrap: break-word;
 }
 
 .jumbotron h1 {
@@ -166,7 +167,11 @@ div[id].row:first-child {
   margin-top: 0;
 }
 
-div[id].row h3:first-child {
+div[id].row:last-child {
+  margin-bottom: 200px;
+}
+
+div[id].row h3:first-child, #connect {
   margin-top: 0;
 }
 
@@ -195,6 +200,10 @@ div[id].row h3:first-child {
 #resumePrompt .alert-default {
   background-color: #eee;
   border-color: #ddd;
+}
+
+#resumePrompt .btn-group {
+  margin-top: 5px;
 }
 
 #resumePrompt .btn.disabled {
