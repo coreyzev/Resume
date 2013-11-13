@@ -136,10 +136,10 @@ $(document).ready(function() {
         }, {
             href: 'img/cz_apples.jpg',
             title: "I can't wait to be this happy to go to work."
-        }, {
+        }/*, {
             href: 'img/pants-rip.gif',
             title: "I can't wait to be this happy to go to work."
-        }],
+        }*/],
         2: [{
             href: 'http://www.zevdesigns.com/content/Corey_Zev_Holland-resume.pdf',
             title: 'Resume'
