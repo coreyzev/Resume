@@ -142,12 +142,12 @@ background-color: #666;
   padding: 10px 100% 10px;
 }
 
-.jumbotron .text-muted span {
+.jumbotron .text-muted br {
   display: none;
 }
 
 @media screen and (max-width: 480px) {
-  .jumbotron .text-muted span {
+  .jumbotron .text-muted br {
     display: block !important;
   }
 }
