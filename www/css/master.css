@@ -146,7 +146,7 @@ background-color: #666;
   display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 473px) {
   .jumbotron .text-muted br {
     display: block !important;
   }
