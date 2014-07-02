@@ -34,7 +34,7 @@ Graphic Design
 December 2011
 ```
 
-[Codecademy](www.codecademy.com/coreyzev) — [Codeschool](https://www.codeschool.com/users/coreyzev)
+[Codecademy](http://www.codecademy.com/coreyzev) — [Codeschool](https://www.codeschool.com/users/coreyzev)
 	
 ## Skills
 
