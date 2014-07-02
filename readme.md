@@ -9,9 +9,22 @@
 
 ## About
 
-> I am a front-end developerwith a focus on elegant designand good user experiences.Elegant and DRY code isnow my focus.
-> I consider myself a teamplayer and a problem solver. Iam always keen to collaboratewith coworkers to producecreative, elegant solutions todifficult problems.
-**Location:** Boston, MA
+> I am a front-end developer
+with a focus on elegant design
+and good user experiences.
+Elegant and DRY code is
+now my focus.
+
+
+> I consider myself a team
+player and a problem solver. I
+am always keen to collaborate
+with coworkers to produce
+creative, elegant solutions to
+difficult problems.
+
+
+**Location:** Boston, MA
 
 ### Education
 ```
@@ -39,36 +52,68 @@ Sass, Less, Stylus, Python, Django, Flask, REST, git, PHP, Wordpress, Expression
 
 ## Experience
 
-**Scholastic Inc.**
+**Partners+simons**
 
 	Front-end Developer
-	Watertown, MA	July 2012 – Present
-> With a focus on front end development, information visualization design, and document design, I assisted the Hosting & Operations and Enterprise Services departments. Working with engineers and management to put together visuals which would serve as a portal of information for external departments.
-**ZevDesigns**
-	Boston, MA 
+	Boston, MA
+	December 2013 – Present
+
+> I am responsible for front end, responsive web development. My main responsibilities include coding HTML5, CSS3, and JavaScript. My cross-industry experience place me in an excellent position to work with designers and other creatives to create a cohesive digital experience.
+
+> Partners+simons is a brand communications company that generates unambiguous business outcomes for clients in the health, financial services and technology sectors.
+
+**ZevDesigns**
+
+	Boston, MA 
 	Present
 
-> In the freelance branch of my work I work with small businesses, start-ups, and individuals, who are looking for web design & administration, print work,branding or photography.**Boston Young Creatives**	Lead & Organizer 
+> In the freelance branch of my work I work with small businesses, start-ups, and individuals, who are looking for web design & administration, print work,
+branding or photography.
+
+**Boston Young Creatives**
+
+	Lead & Organizer 
 	Boston, MA 
 	June 2012 – Present
 	
-> A meetup.com group with over 700 members, 30+ attending each social meet up. The group’s mission is to encourage a communicative environment where creatives from every field know what to expect when working with each other professionally.**nSphere Inc.**
-	Front-end Engineer 
+> A meetup.com group with over 900 members, 30+ attending each social meet up. The group’s mission is to encourage a communicative environment where creatives from every field know what to expect when working with each other professionally.
+
+**Scholastic Inc.**
+
+	Front-end Developer
+	Watertown, MA
+	July 2012 – November 2013
+
+> With a focus on front end development, information visualization design, and document design, I assisted the Hosting & Operations and Enterprise Services departments. Working with engineers and management to put together visuals which would serve as a portal of information for external departments.
+
+**nSphere Inc.**
+
+	Front-end Engineer 
 	Boston, MA 
 	July 2011 – March 2012
 	
-> My primary position in this role was developing the UX for a new white-label local search feature. My responsibilities also included updating and building HTML products, branding, and building a new MVC based corporate website.**PullnotPush.com**
-	Design and Development 
+> My primary position in this role was developing the UX for a new white-label local search feature. My responsibilities also included updating and building HTML products, branding, and building a new MVC based corporate website.
+
+**PullnotPush.com**
+
+	Design and Development 
 	Boston, MA 
 	July 2010 – Sept. 2010
 
-> Working in a web startup in a mostly digital environment. The focus was on inbound digital marketing, email, and web pages.Hubspot Certified company.**Nuance Communications, Inc., Dragon NaturallySpeaking**
-	Graphic Designer 
+> Working in a web startup in a mostly digital environment. The focus was on inbound digital marketing, email, and web pages.
+Hubspot Certified company.
+
+**Nuance Communications, Inc., Dragon NaturallySpeaking**
+
+	Graphic Designer 
 	Burlington, MA 
 	Feb. 2010 – June 2010
 	
-> A co-op position in the marketing department working with digital, physical, and multimedia marketing. My work was based around email marketing, data sheets, and video projects.**Digital Media Design Studio, NU Libraries** 
-	Software Specialist, Designer 
+> A co-op position in the marketing department working with digital, physical, and multimedia marketing. My work was based around email marketing, data sheets, and video projects.
+
+**Digital Media Design Studio, NU Libraries** 
+
+	Software Specialist, Designer 
 	Boston, MA 
 	July 2008 – Feb. 2009
 	
