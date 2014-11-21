@@ -143,7 +143,7 @@ $(document).ready(function() {
                     }*/
         ],
         2: [{
-            href: 'http://www.zevdesigns.com/content/Corey_Zev_Holland-resume.pdf',
+            href: '/media/Corey_Zev_Holland-resume.pdf',
             title: 'Resume'
         }, {
             href: 'http://fancyapps.com/fancybox/demo/5_b.jpg',
@@ -269,7 +269,7 @@ $(document).ready(function() {
 
         var cForm = {};
         cForm.subject = encodeURI(elms.subjectTitle.value + ' - from ' + elms.firstName.value + ' ' + elms.lastName.value);
-        cForm.mailTo = 'coreyzev@zevdesigns.com';
+        cForm.mailTo = 'czwolf@gmail.com';
         cForm.body = encodeURI(elms.message.value);
 
         if ($(e.target).hasClass("act-send-gmail")) {
