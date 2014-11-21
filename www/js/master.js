@@ -52,7 +52,7 @@ $(document).ready(function() {
     // Updated Time
     lastmod = document.lastModified; // get string of last modified date
     lastmoddate = Date.parse(lastmod); // convert modified string to date
-    modMoment = moment.utc(lastmod, "MM-DD-YYYY HH:mm:ss").subtract('second', 70).fromNow();
+    modMoment = moment.utc(lastmod, "MM-DD-YYYY HH:mm:ss").add('hour', 5).fromNow();
     if (lastmoddate === 0) { // unknown date (or January 1, 1970 GMT)
         document.writeln("Last Modified: Unknown");
     } else {
