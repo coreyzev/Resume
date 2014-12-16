@@ -269,7 +269,7 @@ $(document).ready(function() {
 
         var cForm = {};
         cForm.subject = encodeURI(elms.subjectTitle.value + ' - from ' + elms.firstName.value + ' ' + elms.lastName.value);
-        cForm.mailTo = 'czwolf@gmail.com';
+        cForm.mailTo = 'info@zev.ninja';
         cForm.body = encodeURI(elms.message.value);
 
         if ($(e.target).hasClass("act-send-gmail")) {
