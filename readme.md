@@ -1,30 +1,31 @@
 # Corey Zev Holland
 ## Front-end Developer & Designer
 
-![image](http://i.imgur.com/LAXN5H5.png)
+![image](http://zev.ninja/img/wordmark-wolf.png)
 
-### [Read more about me](http://zevdesigns.com/info) – [Contact me](mailto:coreyzev@zevdesigns.com) — [PDF Resume](http://zevdesigns.com/content/Corey_Zev_Holland-resume.pdf)
+### [Read more about me](http://zev.ninja) – [Contact me](mailto:info@zev.ninja) — [PDF Resume](https://github.com/coreyzev/Resume/blob/master/www/media/Corey_Zev_Holland-resume.pdf)
 
 *anchor:* [About](#about) — [Experience](#experience) — [Skills](#skills) — [Github Projects](#github-projects)
 
 ## About
 
-> I am a front-end developer
-with a focus on elegant design
-and good user experiences.
-Elegant and DRY code is
-now my focus.
+>  I am a creative collaborator.
+Leveraging my experience as a
+front-end developer and focus
+on elegant design and user
+experiences, I see the gaps left
+open between disciplines and
+bring them into focus.
 
 
-> I consider myself a team
-player and a problem solver. I
-am always keen to collaborate
-with coworkers to produce
-creative, elegant solutions to
-difficult problems.
+> I am a problem solver. I
+thrive on utilizing my peers’
+and my combined experience
+to produce creative, elegant
+solutions to difficult problems.
 
 
-**Location:** Boston, MA
+**Location:** San Francisco, CA
 
 ### Education
 ```
@@ -40,27 +41,25 @@ December 2011
 
 ##### Top 8
 * HTML 
-* CSS 
+* CSS / SASS / Less
 * Javascript 
-* Backbone 
+* Node.js
 * MVC / MV* 
+* git (-flow)
 * Adobe Creative Suite
-* UI Design 
-* Branding
+* UI/UX
 
-Sass, Less, Stylus, Python, Django, Flask, REST, git, PHP, Wordpress, ExpressionEngine, jQuery, LAMP, Markdown, Sublime Text, Autodesk Maya, SLR Cameras, Omnigraffle, Avid, Final Cut
+ECMA2015 (ES6), RegEx, PHP, Agile / Jira, Web Performance, Page Optimization, Wordpress, Python, REST, ExpressionEngine, jQuery, Gulp & Grunt, LAMP, Markdown, Sublime Text, Simple 3D Models, SLR Cameras, Omnigraffle, Avid / Final Cut, Branding
 
 ## Experience
 
-**Partners+simons**
+**Zerve**
 
-	Front-end Developer
-	Boston, MA
-	December 2013 – Present
+	Software Developer
+	San Francisco, CA
+	February 2015 - Present
 
-> I am responsible for front end, responsive web development. My main responsibilities include coding HTML5, CSS3, and JavaScript. My cross-industry experience place me in an excellent position to work with designers and other creatives to create a cohesive digital experience.
-
-> Partners+simons is a brand communications company that generates unambiguous business outcomes for clients in the health, financial services and technology sectors.
+> Developing new ideas and maintaining the website of the top activity booking and sales platform. Working with a small distributed team of developers & designers to prototype rapidly and deploy new features. Built a custom node.js build tool for a complex environment.
 
 **ZevDesigns**
 
@@ -77,6 +76,16 @@ branding or photography.
 	June 2012 – Present
 	
 > A meetup.com group with over 900 members, 30+ attending each social meet up. The group’s mission is to encourage a communicative environment where creatives from every field know what to expect when working with each other professionally.
+
+**Partners+simons**
+
+	Front-end Developer
+	Boston, MA
+	December 2013 – September 2014
+
+> My focus is on front-end, responsive web development. My responsibilities include coding HTML5, CSS3, and JavaScript. My cross-industry experience provides me the ability to work with other creatives to create a cohesive digital experience.
+
+> Partners+simons is a brand communications company that generates unambiguous business outcomes for clients in the health, financial services and technology sectors.
 
 **Scholastic Inc.**
 
@@ -119,12 +128,4 @@ Hubspot Certified company.
 	
 > Performed as a central member of a multimedia lab, teaching the Adobe, Final Cut, and iLife, suites. Key responsibilities also included web maintenance, print creation, and multi-department collaboration.
 
-## Github Projects
-
-### [SpotColors.js](https://github.com/coreyzev/SpotColors-js)
-
-
-### [Bedposted](https://github.com/bedposted/bedpost)
-
-
-### [Ro Sham Bootstrap](https://github.com/coreyzev/ro-sham-bootstrap)
+## [Github Projects](https://github.com/coreyzev?tab=repositories)
