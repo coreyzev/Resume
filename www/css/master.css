@@ -20,19 +20,33 @@ footer {
 }
 
 .sans, .btn, h1, h2, h3, h4, .nav a, #sidebar a  {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Exo 2', sans-serif;
 }
 
 .serif {
   font-family: 'Merriweather', serif;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+.serif strong {
+    font-weight: 400;
+}
+p {
+    line-height: 1.4em;
+    font-family: inherit;
+}
+.serif p {
+    line-height: 1.45em;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
 }
 
-p {
+h5.sans {
+    font-size: 1.2em;
 }
+
 
 .navbar {
   background-color: #CDDFEE;
@@ -189,7 +203,7 @@ background-color: #666;
 
 #connect .btn:first-child {
   margin-left:0;
-} 
+}
 
 #connect .btn:last-child {
   margin-right:0;
@@ -204,8 +218,9 @@ background-color: #666;
 }
 
 div[id].row {
-  margin-top: 200px;
+  margin-top: 100px;
   padding-top: 90px;
+  clear: both;
 }
 
 div[id].row:first-child {
@@ -214,7 +229,7 @@ div[id].row:first-child {
 }
 
 div[id].row:last-child {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 div[id].row h3:first-child, #connect {
@@ -223,6 +238,9 @@ div[id].row h3:first-child, #connect {
 
 #about .pull-right p {
   font-size: 0.85em;
+}
+#about .well h5 {
+    margin-top: 15px;
 }
 
 #skills {
@@ -235,7 +253,7 @@ div[id].row h3:first-child, #connect {
   margin-bottom: 5px;
   color: #050505;
   font-weight: 700;
-  font-family: 'Exo', serif;
+  font-family: 'Exo 2', serif;
 }
 
 #skills .well {
@@ -318,4 +336,15 @@ div[id].row h3:first-child, #connect {
     top: 0;
     width: 50%; /* 6 columns */
   }
+}
+
+/* Hebrew */
+@import url(https://fonts.googleapis.com/css?family=Alef&subset=hebrew);
+.hebrew {
+    font-family: 'Alef', sans-serif;
+    direction: rtl;
+    font-size: 1.2em;
+    line-height: inherit;
+    font-weight: 300;
+    color:#555;
 }
